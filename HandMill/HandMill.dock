@@ -11,9 +11,9 @@
 	  "disallowManualDocking": false,
 	  "siteName": "input",
 	  "location": {
-	    "x": 0.25,
-		"y": 0.25,
-		"z": 0.25
+	    "x": -0.13,
+		"y": 0.13,
+		"z": -0.25
 	  },
 	  "rotation": {
 	    "x": 0.0,
@@ -29,7 +29,7 @@
 	  "siteName": "catalyst",
 	  "location": {
 	    "x": 0.25,
-		"y": 0.25,
+		"y": 0.13,
 		"z": -0.25
 	  },
 	  "rotation": {
@@ -61,13 +61,13 @@
 	  "disallowManualDocking": true,
 	  "siteName": "results",
 	  "location": {
-	    "x": 0.00,
-		"y": 0.25,
-		"z": -0.38
+	    "x": 0.38,
+		"y": 0.13,
+		"z": 0.25
 	  },
 	  "rotation": {
 	    "x": 0.0,
-		"y": 0.0,
+		"y": 90.0,
 		"z": 0.0
 	  }
     }
