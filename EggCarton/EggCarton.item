@@ -1,0 +1,35 @@
+{
+  "categories": [
+    "market",
+    "chicken",
+    "egg",
+    "cake"
+  ],
+  "code": "mods.zoniventris.eggCarton.EggCarton",
+  "icon": "mods/EggCarton/EggCarton.qb",
+  "inHand": "mods/EggCarton/EggCarton.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.56
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 1016,
+    "value": 1560 
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}
