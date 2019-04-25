@@ -14,5 +14,5 @@
       "quantity": 12
     }
   ],
-  "effectTrigger": "staxel.effect.Combine"
+  "effectTrigger": "staxel.effect.cooking.Combine"
 }
