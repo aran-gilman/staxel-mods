@@ -1,0 +1,31 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "animation": "mods.zoniventris.windmill.WindmillHeadAnimation",
+  "attachToAbove": false,
+  "attachToBelow": false,
+  "attachToSide": true,
+  "categories": [
+    "windmill",
+	"zoniventris"
+  ],
+  "code": "mods.zoniventris.windmill.WindmillHead",
+  "compound": {
+    "size": {
+	  "x": 6,
+	  "y": 6,
+	  "z": 1
+	},
+	"specification": "EECCEE EECCEE CCXCCC CCCCCC EECCEE EECCEE"
+  },
+  "placementDirections" : [
+    "xn", "xp",
+	"zn", "zp"
+  ],
+  "pricing": {
+    "buyable": true,
+	"sellPrice": 600,
+	"value": 1000
+  },
+  "searchable": true,
+  "voxels": "mods/zoniventris/windmill/WindmillHead.qb"
+}

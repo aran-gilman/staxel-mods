@@ -1,0 +1,131 @@
+{
+  "approximateSites": true,
+  "code": "mods.zoniventris.handMill.HandMillDocks",
+  "craftingKeyword": "mill",
+  "resultSite": "results",
+  "effectSite": "burrs",
+  "sites": [
+    {
+	  "allowStacks": true,
+	  "compact": true,
+	  "disallowManualDocking": false,
+	  "siteName": "input",
+	  "location": {
+	    "x": 0.25,
+		"y": 0.25,
+		"z": 0.25
+	  },
+	  "rotation": {
+	    "x": 0.0,
+		"y": 0.0,
+		"z": 0.0
+	  },
+	  "craftSite": true
+    },
+	{
+	  "allowStacks": true,
+	  "compact": true,
+	  "disallowManualDocking": false,
+	  "siteName": "catalyst",
+	  "location": {
+	    "x": 0.25,
+		"y": 0.25,
+		"z": -0.25
+	  },
+	  "rotation": {
+	    "x": 0.0,
+		"y": 0.0,
+		"z": 0.0
+	  },
+	  "craftSite": true
+    },
+	{
+	  "allowStacks": true,
+	  "compact": true,
+	  "disallowManualDocking": true,
+	  "siteName": "burrs",
+	  "location": {
+	    "x": 0.00,
+		"y": 0.50,
+		"z": 0.00
+	  },
+	  "rotation": {
+	    "x": 0.0,
+		"y": 0.0,
+		"z": 0.0
+	  }
+    },
+	{
+	  "allowStacks": true,
+	  "compact": true,
+	  "disallowManualDocking": true,
+	  "siteName": "results",
+	  "location": {
+	    "x": 0.00,
+		"y": 0.25,
+		"z": -0.38
+	  },
+	  "rotation": {
+	    "x": 0.0,
+		"y": 0.0,
+		"z": 0.0
+	  }
+    }
+  ],
+  "validDockables": [
+    {
+      "category": "all",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "effectTrigger": "staxel.effect.DockItem",
+      "placeSoundGroup": "staxel.sounds.place.Item.dock",
+      "sites": [
+        "input"
+      ]
+    },
+    {
+      "category": "flour",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "effectTrigger": "staxel.effect.DockItem",
+      "placeSoundGroup": "staxel.sounds.place.Item.dock",
+      "sites": [
+        "results"
+      ]
+    },
+    {
+      "category": "magic",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "effectTrigger": "staxel.effect.DockItem",
+      "placeSoundGroup": "staxel.sounds.place.Item.dock",
+      "sites": [
+        "catalyst"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "__inherits": "staxel/docks/dockBase.config",
+  "categories": [
+    "container",
+    "storage",
+    "basic",
+    "furniture",
+    "cabinet",
+    "closet",
+    "cupboard",
+    "pantry",
+    "credenza",
+    "double",
+	"gray",
+	"zoniventris"
+  ],
+  "code": "mods.zoniventris.shelf.MetalShelfUnit",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 2,
+      "z": 2
+    }
+  },
+  "dockDefinition": "mods.zoniventris.shelf.ShelfDocks",
+  "prefetchTileState": true,
+  "pricing": {
+    "buyable": true,
+    "sellPrice": 5,
+    "value": 280
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/More Shelves/ShelfMetal.qb",
+  "wallPushOut": true
+}

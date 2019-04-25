@@ -1,0 +1,8 @@
+{
+  "code": "mods.zoniventris.windmill.WindmillHeadEmote",
+  "animation": "mods.zoniventris.windmill.WindmillHead.loop",
+  "looped": true,
+  "categories": [
+    "emote"
+  ]
+}

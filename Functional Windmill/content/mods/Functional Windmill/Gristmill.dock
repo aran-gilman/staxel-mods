@@ -1,0 +1,96 @@
+{
+  "approximateSites": true,
+  "code": "mods.zoniventris.windmill.GristmillDocks",
+  "craftingKeyword": "mill",
+  "resultSite": "results",
+  "effectSite": "millstone",
+  "sites": [
+    {
+      "allowStacks": true,
+	  "compact": true,
+      "disallowManualDocking": true,
+      "siteName": "millstone",
+      "location": {
+        "x": -0.06,
+        "y": 4.0,
+        "z": -0.06
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "allowStacks": true,
+	  "compact": true,
+      "disallowManualDocking": false,
+      "siteName": "hopper",
+      "location": {
+        "x": 0.5,
+        "y": 5.38,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "craftSite": true
+    },
+    {
+      "allowStacks": true,
+	  "compact": true,
+      "disallowManualDocking": true,
+      "siteName": "results",
+      "location": {
+        "x": -0.25,
+        "y": 0.13,
+        "z": -0.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "validDockables": [
+    {
+      "category": "all",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "effectTrigger": "staxel.effect.DockItem",
+      "placeSoundGroup": "staxel.sounds.place.Item.dock",
+      "sites": [
+        "hopper"
+      ]
+    },
+    {
+      "category": "flour",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "effectTrigger": "staxel.effect.DockItem",
+      "placeSoundGroup": "staxel.sounds.place.Item.dock",
+      "sites": [
+        "results"
+      ]
+    }
+  ]
+}

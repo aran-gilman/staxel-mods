@@ -1,0 +1,5 @@
+language.code=en-US
+language=English
+
+mods.zoniventris.windmillModInfo.description=Output info on Zoniventris' Windmill mod.
+mods.zoniventris.windmillModInfo.modInfo=Adds a functional windmill for milling grains. Version: {0-version}

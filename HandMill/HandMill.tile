@@ -1,0 +1,26 @@
+{
+  "__inherits": "staxel/docks/dockBase.config",
+  "attachToBelow": true,
+  "categories": [
+    "grind",
+	"mill",
+	"zoniventris"
+  ],
+  "code": "mods.zoniventris.handMill.HandMill",
+  "compound": {
+    "size": {
+	  "x": 1,
+	  "y": 1,
+	  "z": 1
+	}
+  },
+  "dockDefinition": "mods.zoniventris.handMill.HandMillDocks",
+  "pricing": {
+    "buyable": true,
+	"sellPrice": 300,
+	"value": 500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/HandMill/HandMill.qb"
+}

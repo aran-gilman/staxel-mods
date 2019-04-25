@@ -1,0 +1,26 @@
+{
+  "name": "Oat Flour",
+  "code": "mods.zoniventris.windmill.MillOats",
+  "recipeStep": "mill",
+  "tools": [],
+  "docks": [
+    "mods.zoniventris.windmill.Gristmill"
+  ],
+  "requirements": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crops.Oat",
+	  "quantity": 10
+    }
+  ],
+  "results": [
+    {
+      "code": "staxel.item.crafting.PlainFlour",
+	  "quantity": 5
+    }
+  ],
+  "moveResultsToSite": "results",
+  "effectTrigger": "staxel.effect.DockItem",
+  "duration": 5,
+  "triggerDurationCraftManually": true,
+}

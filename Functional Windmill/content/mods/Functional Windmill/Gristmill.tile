@@ -1,0 +1,26 @@
+{
+  "__inherits": "staxel/docks/dockBase.config",
+  "attachToBelow": true,
+  "categories": [
+    "windmill",
+	"mill",
+	"zoniventris"
+  ],
+  "code": "mods.zoniventris.windmill.Gristmill",
+  "compound": {
+    "size": {
+	  "x": 2,
+	  "y": 6,
+	  "z": 2
+	}
+  },
+  "dockDefinition": "mods.zoniventris.windmill.GristmillDocks",
+  "pricing": {
+    "buyable": true,
+	"sellPrice": 300,
+	"value": 500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/zoniventris/windmill/Gristmill.qb"
+}

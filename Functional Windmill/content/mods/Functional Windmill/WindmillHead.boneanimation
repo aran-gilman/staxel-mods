@@ -1,0 +1,26 @@
+{
+  "code": "mods.zoniventris.windmill.WindmillHeadAnimation",
+  "definition": "mods/zoniventris/windmill/WindmillHead.bvh",
+  "offset": {
+    "x": 0.35,
+    "y": 0.112,
+    "z": 0.0
+  },
+  "translation": {
+    "x": 0.0,
+    "y": 0.0625,
+    "z": 0.0
+  },
+  "scale": 0.625,
+  "axismode": "XPZPYN",
+  "timelines": {
+    "tpose": {
+      "start": 0,
+      "end": 0
+    },
+    "mods.zoniventris.windmill.WindmillHead.loop": {
+      "start": 1,
+      "end": 40
+    }
+  }
+}

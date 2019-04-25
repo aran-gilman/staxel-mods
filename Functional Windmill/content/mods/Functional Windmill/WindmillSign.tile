@@ -1,0 +1,28 @@
+{
+  "__inherits": "staxel/tileObject/totems/totemBase.config",
+  "attachToBelow": true,
+  "categories": [
+    "windmill",
+	"totem",
+	"sign",
+	"zoniventris"
+  ],
+  "code": "mods.zoniventris.windmill.WindmillSign",
+  "compound": {
+    "size": {
+	  "x": 1,
+	  "y": 2,
+	  "z": 1
+	}
+  },
+  "pricing": {
+    "buyable": true,
+	"sellPrice": 600,
+	"value": 1000
+  },
+  "searchable": true,
+  "totem": {
+    "code": "mods.zoniventris.windmill.WindmillTotem"
+  },
+  "voxels": "mods/zoniventris/windmill/WindmillSign.qb"
+}

@@ -1,0 +1,27 @@
+{
+  "code": "mods.zoniventris.windmill.WindmillTotem",
+  "region": {
+    "x": 6,
+    "y": 15,
+    "z": 6
+  },
+  "centreOffset": {
+    "x": 2,
+    "y": 14,
+    "z": -5
+  },
+  "requiredObjects": {
+    "tier0": [
+	  {
+	    "code": "mods.zoniventris.windmill.WindmillHead",
+		"count": 1
+	  },
+	  {
+	    "code": "mods.zoniventris.windmill.Gristmill",
+		"count": 1
+	  }
+	]
+  },
+  "requiresRoof": true,
+  "tiers": 1
+}
