@@ -1,0 +1,39 @@
+{
+  "approximateSites": true,
+  "code": "mods.zoniventris.flowerPots.dock.FlowerPot",
+  "sites": [
+    {
+      "allowStacks": false,
+      "compact": false,
+      "disallowManualDocking": false,
+      "siteName": "flower",
+      "location": {
+        "x": 0.00,
+	"y": 0.87,
+	"z": 0.00
+      },
+      "rotation": {
+        "x": 0.0,
+	"y": 0.0,
+	"z": 0.0
+      }
+    }
+  ],
+  "validDockables": [
+    {
+      "category": "flower",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "placeSoundGroup": "staxel.sounds.PlantSeed",
+      "effectTrigger": "staxel.effect.DockItem"
+    }
+  ]
+}

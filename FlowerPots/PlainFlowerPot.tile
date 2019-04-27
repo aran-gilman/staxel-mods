@@ -1,0 +1,25 @@
+{
+  "__inherits": "staxel/docks/dockBase.config",
+  "attachToBelow": true,
+  "categories": [
+    "decoration",
+    "zoniventris"
+  ],
+  "code": "mods.zoniventris.flowerPots.PlainFlowerPot",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "dockDefinition": "mods.zoniventris.flowerPots.dock.FlowerPot",
+  "pricing": {
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 50 
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/FlowerPots/PlainFlowerPot.qb"
+}
