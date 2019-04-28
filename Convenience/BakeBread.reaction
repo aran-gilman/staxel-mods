@@ -1,0 +1,24 @@
+{
+  "name": "Bake Bread",
+  "code": "mods.zoniventris.convenience.reaction.BakeBread",
+  "recipeStep": "bake",
+  "tools": [],
+  "docks": [
+    "staxel.tileObject.serverVillage.BakingStation"
+  ],
+  "reagents": [
+    {
+      "code": "mods.zoniventris.convenience.item.BreadDough",
+    }
+  ],
+  "results": [
+    {
+      "code": "staxel.item.crafting.Bread"
+    }
+  ],
+  "duration": 10,
+  "triggerDurationCraftManually": true,
+  "triggerDockAction": "staxel.entityAction.OpenOvenAction",
+  "effect": "staxel.effect.cooking.OvenSmoke",
+  "effectTrigger": "staxel.effect.DockItem"
+}

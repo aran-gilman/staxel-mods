@@ -1,0 +1,32 @@
+{
+  "name": "Mix Bread Dough",
+  "code": "mods.zoniventris.convenience.reaction.MixBreadDough",
+  "recipeStep": "mix",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.PlainFlour"
+    },
+    {
+      "code": "staxel.item.crafting.Salt"
+    },
+    {
+      "code": "staxel.item.crafting.Yeast"
+    },
+    {
+      "code": "staxel.item.crafting.WaterJar"
+    }
+  ],
+  "results": [
+    {
+      "code": "mods.zoniventris.convenience.item.BreadDough"
+    }
+  ],
+  "moveResultToSite": "results",
+  "duration": 5,
+  "triggerDurationCraftManually": true,
+  "effectTrigger": "staxel.effect.DockItem",
+  "triggerDockAction": "staxel.entityAction.ToggleMixerAction",
+  "triggerDockActionOnCompletion": "staxel.entityAction.ToggleMixerAction",
+  "effect": "staxel.effect.cooking.Mixer"
+}
