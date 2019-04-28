@@ -1,0 +1,20 @@
+{
+  "name": "Convert Golden Koi into Koi",
+  "code": "mods.zoniventris.convenience.reaction.TransformSnowdustKoi",
+  "recipeStep": "Transform",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.gatherable.GoldenKoi",
+    }
+  ],
+  "results": [
+    {
+      "code": "staxel.item.gatherable.Koi",
+    }
+  ],
+  "duration": 1,
+  "triggerDurationCraftManually": true,
+  "effectTrigger": "mods.effect.AutoMagic.SpecialDockItem",
+  "effect": "mods.effect.AutoMagic.BasicTransformSpell"
+}
